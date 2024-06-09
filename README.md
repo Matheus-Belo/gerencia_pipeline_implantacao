@@ -1,11 +1,12 @@
-# Título do Projeto
+# Trabalho prático de Gerência e Configuração de Software
 
 
-![Capa do Projeto](https://picsum.photos/850/280)
+![foto projeto gerencia e configuracao](https://github.com/Matheus-Belo/gerencia_pipeline_implantacao/assets/90854775/435290d9-b807-4482-b599-23a126f77383)
+
 
 # Sobre o Projeto
 
-Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
+Neste projeto, será desenvolvida uma API para gerenciar pacientes de uma clínica médica. O setor de TI da clínica identificou a necessidade de uma solução que melhore o software existente, dada a crescente complexidade dos sistemas atuais e o aumento no volume de dados. A equipe de tecnologia reconheceu a importância de uma ferramenta mais integrada e eficiente para gerenciar as informações de saúde dos pacientes. Dessa forma, o desenvolvimento da API visa otimizar os processos internos, simplificar a gestão de dados e aprimorar a qualidade do atendimento prestado pela clínica, representando uma resposta estratégica às demandas atuais.
 
 <h4 align="center"> 
 	🚧  Em desenvolvimento . . .
@@ -25,20 +26,29 @@ Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
 
 # Requisitos Funcionais 
 
-- [x] **Cadastrar Usuário**
-- [x] **Fazer Login**
-- [ ] Matricular em Curso
-- [ ] Cancelar Matricula
-- [ ] Visualizar Notas
-- [ ] Visualizar e Atualizar Informações do Estudante
+- [ ] Cadastrar Paciente
+- [ ] Calcular Peso Ideal
+- [ ] Obter CPF ofuscado
+- [ ] Obter situação do IMC
+- [ ] Calcular IMC
+- [ ] Calcular Idade
+- [ ] Validar CPF
+- [ ] Editar informações do Paciente
+- [ ] Excluir Paciente do sistema
+- [ ] Visualizar todos os pacientes disponíveis
+- [ ] Visualizar Informações do Paciente
 
 # Tecnologias Usadas
 
-- [Flutter](https://flutter.dev/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Java](https://www.java.com/pt-BR/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Vscode](https://code.visualstudio.com/)
+- [MySQL](https://www.mysql.com/)
+- [Postman](https://www.postman.com/)
+- [Docker](https://www.docker.com/)
+- [Maven](https://maven.apache.org/)
+- [GitHub Actions](https://github.com/features/actions)
+- [HeidiSQL](https://www.heidisql.com/)
 
 # Contribuição
 
@@ -54,4 +64,4 @@ Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.m
 
 # Agradecimentos
 
-Seção livre para você agradecer a todos que contribuiram para a execução do seu projeto.
+Gostaria de expressar minha profunda gratidão a todos que, de alguma forma, contribuíram para a execução deste projeto.
