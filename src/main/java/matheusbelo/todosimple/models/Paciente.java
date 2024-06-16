@@ -73,6 +73,14 @@ public class Paciente {
     @Size(groups = CreatePaciente.class, min = 11, max = 11)
     private String cpf;
 
+
+    @Column(name = "situacao_imc")
+    private String situacaoImc;
+
+    @Column(name = "peso_ideal")
+    private double pesoIdeal;
+
+
     @JsonProperty(access = Access.WRITE_ONLY)
     private double imc;
 
@@ -87,8 +95,11 @@ public class Paciente {
         this.nascimento = nascimento;
         this.altura = altura;
         this.peso = peso;
-        this.cpf = cpf;
+        this.cpf = obterCpfOfuscado();
         this.idade = calcularIdade();
+        this.imc = calcularIMC();
+        this.situacaoImc = obterSituacaoIMC();
+        this.pesoIdeal = obterPesoIdeal();
     }
 
     public Long getId() {
