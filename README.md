@@ -26,17 +26,17 @@ Neste projeto, será desenvolvida uma API para gerenciar pacientes de uma clíni
 
 # Requisitos Funcionais 
 
-- [ ] Cadastrar Paciente
-- [ ] Calcular Peso Ideal
-- [ ] Obter CPF ofuscado
-- [ ] Obter situação do IMC
-- [ ] Calcular IMC
-- [ ] Calcular Idade
-- [ ] Validar CPF
-- [ ] Editar informações do Paciente
-- [ ] Excluir Paciente do sistema
-- [ ] Visualizar todos os pacientes disponíveis
-- [ ] Visualizar Informações do Paciente
+- [x] Cadastrar Paciente
+- [x] Calcular Peso Ideal
+- [x] Obter CPF ofuscado
+- [x] Obter situação do IMC
+- [x] Calcular IMC
+- [x] Calcular Idade
+- [x] Validar CPF
+- [x] Editar informações do Paciente
+- [x] Excluir Paciente do sistema
+- [x] Visualizar todos os pacientes disponíveis
+- [x] Visualizar Informações do Paciente
 
 # Tecnologias Usadas
 
